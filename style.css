@@ -11,7 +11,7 @@
 body {
   margin: 0;
   font: 16px/1.5 Arial, sans-serif;
-  color: #ffffff;
+  color: #f8f7f7;
   background: #f3f7fb;
   display: flex;
   flex-direction: column;
@@ -70,9 +70,9 @@ h1 { display: flex; align-items: center; gap: 12px; font-size: 1.5rem; }
   border-radius: 12px;
   box-shadow: 0 1px 2px rgb(15 23 42 / 0.06);
 }
-.card h2 { margin: 0 0 8px; font-size: 1.1rem; }
+.card h2 { margin: 0 0 8px; font-size: 1.1rem; color: #ffffff;}
 .card p  { margin: 0 0 16px; color: #ffffff; }
-.card a  { margin-top: auto; align-self: flex-start; color: #758bc7; font-weight: bold; }
+.card a  { margin-top: auto; align-self: flex-start; color: #bbc6e6; font-weight: bold; }
 
 .site-footer { padding: 14px 24px; text-align: center; color: #dbe7f3; background: #153e68; }
 
