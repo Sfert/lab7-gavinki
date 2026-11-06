@@ -1,8 +1,8 @@
 /*
   Лабораторна робота № 7. Ефекти наведення та проста анімація.
-  Варіант № ___
-  --accent: ___ ; --duration: ___ ; --ease: ___ ;
-  transform-origin: ___ ; підняття картки: ___ ; анімація: ___
+  Варіант № 2
+  --accent: #5960c4 ; --duration: 200ms ; --ease: ease-in-out ;
+  transform-origin: center ; підняття картки: translateY(-6px) ; анімація: bounce
 */
 
 /* ===== Базове оформлення — не видаляти; ефекти дописуйте нижче ===== */
@@ -45,7 +45,7 @@ h1 { display: flex; align-items: center; gap: 12px; font-size: 1.5rem; }
   margin-left: auto;
   padding: 8px 18px;
   color: white;
-  background: #1d4ed8;
+  background: var(--accent);
   border: 0;
   border-radius: 8px;
   font: inherit;
@@ -72,7 +72,7 @@ h1 { display: flex; align-items: center; gap: 12px; font-size: 1.5rem; }
 }
 .card h2 { margin: 0 0 8px; font-size: 1.1rem; }
 .card p  { margin: 0 0 16px; color: #475569; }
-.card a  { margin-top: auto; align-self: flex-start; color: #1d4ed8; font-weight: bold; }
+.card a  { margin-top: auto; align-self: flex-start; color: var(--accent); font-weight: bold; }
 
 .site-footer { padding: 14px 24px; text-align: center; color: #dbe7f3; background: #153e68; }
 
